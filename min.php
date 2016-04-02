@@ -12,9 +12,9 @@
  * <link rel="stylesheet" type="text/css" media="screen, print, projection" href="/css/compressed.CSS.php" />
  */
 
-include_once("../../site/plugins/minify/CSS.php");
+include_once("PeaCSS.php");
 
-$css = new CSS("assets/css/");
+$css = new CSS("css/");
 
 /**
  * Ideally, you wouldn't need to change any code beyond this point.
